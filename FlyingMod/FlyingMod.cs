@@ -62,8 +62,8 @@ namespace flyingMod
                     canFly = false;
                 } else canFly = true;
 
-                Vector3 directionHeadForward = rightHand.transform.forward;
-                Vector3 movement = directionHeadForward * 2f + new Vector3(0, 0.2f, 0);
+                Vector3 directionHandForward = rightHand.transform.forward;
+                Vector3 movement = directionHandForward * 2f + new Vector3(0, 0.2f, 0);
                 controller.AddForce(movement, ForceMode.VelocityChange);
             } 
             else if (flyAction != null && flyAction.WasReleasedThisFrame())
