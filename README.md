@@ -7,5 +7,5 @@ A mod that adds flight to clamb
 3. Extract the archive into Clamb's installation folder.
 
 ## How to use
-Launch Clamb and load into a map, press the Y/Secondary button on your right controller
+Launch Clamb and load into a map, press the Y/Secondary button on your right controller.
 Aim with your right controller to fly
